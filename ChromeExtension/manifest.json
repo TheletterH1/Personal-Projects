@@ -1,0 +1,27 @@
+{
+    "name": "Adhav Checker",
+    "version": "1.0.0",
+    "description": "Checks up on my buddy :)",
+    "manifest_version": 3,
+    "author": "Joseph Hughes",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Adhav Checker",
+        "default_icon": {
+            "Happy": "ChromeExtension/images/happyEmoji.png",
+            "Cool": "ChromeExtension/images/coolEmoji.png",
+            "Okay": "ChromeExtension/images/normalEmoji.png",
+            "Anxious": "ChromeExtension/images/anxiousEmoji.png",
+            "Sad": "ChromeExtension/images/sadEmoji.png"
+        }
+    },
+    "permissions": [
+        "notifications",
+        "alarms"
+    ],
+    "background": {
+        "service_worker": ["ChromeExtension/manifest.json"]
+    }
+}
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
