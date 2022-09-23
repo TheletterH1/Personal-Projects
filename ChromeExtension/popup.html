@@ -4,37 +4,69 @@
     <title>Adhav Checker :)</title>
     <meta charset="utf-8">
     <style>
+        body{
+            min-width: 400px;
+            min-height: 190px;
+            position: relative;
+            background-color: honeydew;
+        }
+        h1{
+            text-align: center;
+        }
+        .column {
+        float: left;
+        width: 19%;
+        padding-right: 3px;
+        }
+
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+        .btn {
+            text-align: center;
+            padding-top: 3px;
+            padding-left: 5px;
+            background-color: whitesmoke;
+            border-radius: 12px;
+            display: inline-table;
+            margin: 4px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+        h2 {
+            text-align: center;
+            color: black;
+            font-size: medium;
+        }
     </style>
 </head>
-<script>
-    function myFunction(){
-        document.getElementById("answer").style.color = "black";
-    }
-</script>
 <body>
     <h1>How are you feeling right now?</h1>
     <div class="row">
         <div class="column">
-          <img src="sadEmoji.png" alt="Sad" style="width:100%">
-          <button class="btn" onClick="myFunction()">Sad</button>
+          <div><img src="images/sadEmoji.png" alt="Sad" width="80" height="80"></div>
+            <div><button class="btn", id="sadBtn">Sad</button></div>
         </div>
         <div class="column">
-          <img src="anxiousEmoji.png" alt="Anxious" style="width:100%">
-          <button class="btn" onClick="myFunction()">Anxious</button>
+          <img src="images/anxiousEmoji.png" alt="Anxious" width="80" height="80">
+          <div><button class="btn", id="anxiousBtn">Anxious</button></div>
         </div>
         <div class="column">
-          <img src="normalEmoji.png" alt="Okay" style="width:100%">
-          <button class="btn" onClick="myFunction()">Okay</button>
+          <img src="images/normalEmoji.png" alt="Okay" width="80" height="80">
+          <div><button class="btn", id="okayBtn">Okay</button></div>
         </div>
         <div class="column">
-            <img src="happyEmoji.png" alt="Happy" style="width:100%">
-            <button class="btn" onClick="myFunction()">Good</button>
+            <img src="images/happyEmoji.png" alt="Happy" width="80" height="80">
+            <div><button class="btn", id="goodBtn">Good</button></div>
         </div>
         <div class="column">
-            <img src="coolEmoji.png" alt="Cool" style="width:100%">
-            <button class="btn" onClick="myFunction()">Great</button>
+            <img src="images/coolEmoji.png" alt="Cool" width="80" height="80">
+            <div><button class="btn", id="greatBtn">Great</button></div>
         </div>
       </div>
-      <h2 style="color:white" id="answer">Text Joe</h2>
+      <h2 id="answer"></h2>
+      <script src="functions.js" defer></script>
 </body>
 </html>
