@@ -2,11 +2,11 @@ chrome.runtime.onInstalled.addListener(() => {
     chrome.alarms.create("testAlarm", { periodInMinutes: 180 });
     startRequest();
 });
-
+//When timer goes off
 chrome.alarms.onAlarm.addListener((alarm) => {
     startRequest();
 });
-
+//Function to display the notification
 function startRequest() {
     var options = {
         title: "How are you feeling?",
