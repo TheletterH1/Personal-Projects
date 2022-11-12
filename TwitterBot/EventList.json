@@ -1,1 +1,722 @@
-[{"Date": "11-13-2022", "Team": "Western Michigan", "EventType": "Womens Basketball"}, {"Date": "11-15-2022", "Team": "Kentucky", "EventType": "Mens Basketball"}, {"Date": "11-15-2022", "Team": "Oakland", "EventType": "Womens Basketball"}, {"Date": "11-17-2022", "Team": "Florida A&M", "EventType": "Womens Basketball"}, {"Date": "11-18-2022", "Team": "Villanova", "EventType": "Mens Basketball"}, {"Date": "11-19-2022", "Team": "Indiana", "EventType": "Football"}, {"Date": "11-19-2022", "Team": "Central Michigan", "EventType": "Womens Basketball"}, {"Date": "11-24-2022", "Team": "Alabama", "EventType": "Mens Basketball"}, {"Date": "11-24-2022", "Team": "Iowa State", "EventType": "Womens Basketball"}, {"Date": "11-24-2022", "Team": "Thanksgiving", "EventType": "Holiday"}, {"Date": "11-26-2022", "Team": "Penn State", "EventType": "Football"}, {"Date": "11-30-2022", "Team": "Notre Dame", "EventType": "Mens Basketball"}, {"Date": "12-01-2022", "Team": "Georgia Tech", "EventType": "Womens Basketball"}, {"Date": "12-4-2022", "Team": "Northwestern", "EventType": "Mens Basketball"}, {"Date": "12-05-2022", "Team": "Purdue", "EventType": "Womens Basketball"}, {"Date": "12-7-2022", "Team": "Penn State", "EventType": "Mens Basketball"}, {"Date": "12-10-2022", "Team": "Brown", "EventType": "Mens Basketball"}, {"Date": "12-11-2022", "Team": "Ohio State", "EventType": "Womens Basketball"}, {"Date": "12-18-2022", "Team": "Detriot Mercy", "EventType": "Womens Basketball"}, {"Date": "12-20-2022", "Team": "Prairie View A&M", "EventType": "Womens Basketball"}, {"Date": "12-21-2022", "Team": "Oakland", "EventType": "Mens Basketball"}, {"Date": "12-25-2022", "Team": "Christmas", "EventType": "Holiday"}, {"Date": "12-29-2022", "Team": "Indiana", "EventType": "Womens Basketball"}, {"Date": "12-30-2022", "Team": "Buffalo", "EventType": "Mens Basketball"}, {"Date": "01-01-2023", "Team": "New Year's", "EventType": "Holiday"}, {"Date": "01-02-2023", "Team": "Northwestern", "EventType": "Womens Basketball"}, {"Date": "1-3-2023", "Team": "Nebraska", "EventType": "Mens Basketball"}, {"Date": "1-7-2023", "Team": "Michigan", "EventType": "Mens Basketball"}, {"Date": "01-07-2023", "Team": "Maryland", "EventType": "Womens Basketball"}, {"Date": "01-10-2023", "Team": "Wisconsin", "EventType": "Mens Basketball"}, {"Date": "01-11-2023", "Team": "Wisconsin", "EventType": "Womens Basketball"}, {"Date": "01-13-2023", "Team": "Illinois", "EventType": "Mens Basketball"}, {"Date": "01-14-2023", "Team": "Michigan", "EventType": "Womens Basketball"}, {"Date": "01-16-2023", "Team": "Purdue", "EventType": "Mens Basketball"}, {"Date": "01-16-2023", "Team": "Martin Luther King Day", "EventType": "Holiday"}, {"Date": "01-18-2023", "Team": "Iowa", "EventType": "Womens Basketball"}, {"Date": "01-19-2023", "Team": "Rutgers", "EventType": "Mens Basketball"}, {"Date": "1-22-2023", "Team": "Indiana", "EventType": "Mens Basketball"}, {"Date": "01-22-2023", "Team": "Rutgers", "EventType": "Womens Basketball"}, {"Date": "1-26-2023", "Team": "Iowa", "EventType": "Mens Basketball"}, {"Date": "1-29-2023", "Team": "Purdue", "EventType": "Mens Basketball"}, {"Date": "01-29-2023", "Team": "Illinois", "EventType": "Womens Basketball"}, {"Date": "02-02-2023", "Team": "Nebraska", "EventType": "Womens Basketball"}, {"Date": "2-4-2023", "Team": "Rutgers", "EventType": "Mens Basketball"}, {"Date": "02-05-2023", "Team": "Michigan", "EventType": "Womens Basketball"}, {"Date": "2-7-2023", "Team": "Maryland", "EventType": "Mens Basketball"}, {"Date": "02-08-2023", "Team": "Wisconson", "EventType": "Womens Basketball"}, {"Date": "2-12-2023", "Team": "Ohio State", "EventType": "Mens Basketball"}, {"Date": "02-12-2023", "Team": "Penn State", "EventType": "Womens Basketball"}, {"Date": "2-15-2023", "Team": "Minnesota", "EventType": "Mens Basketball"}, {"Date": "02-15-2023", "Team": "Purdue", "EventType": "Womens Basketball"}, {"Date": "2-18-2023", "Team": "Michigan", "EventType": "Mens Basketball"}, {"Date": "02-18-2023", "Team": "Maryland", "EventType": "Womens Basketball"}, {"Date": "02-20-2023", "Team": "President's Day", "EventType": "Holiday"}, {"Date": "02-21-2023", "Team": "Indiana", "EventType": "Mens Basketball"}, {"Date": "02-22-2023", "Team": "Minnesota", "EventType": "Womens Basketball"}, {"Date": "02-25-2023", "Team": "Iowa", "EventType": "Mens Basketball"}, {"Date": "02-25-2023", "Team": "Penn State", "EventType": "Womens Basketball"}, {"Date": "02-28-2023", "Team": "Nebraska", "EventType": "Mens Basketball"}, {"Date": "03-04-2023", "Team": "Ohio State", "EventType": "Mens Basketball"}, {"Date": "05-14-2023", "Team": "Mother's Day", "EventType": "Holiday"}, {"Date": "06-09-2023", "Team": "Birthday", "EventType": "Holiday"}, {"Date": "06-18-2023", "Team": "Father's Day", "EventType": "Holiday"}, {"Date": "07-04-2023", "Team": "Independence Day", "EventType": "Holiday"}, {"Date": "09-04-2023", "Team": "Labor Day", "EventType": "Holiday"}, {"Date": "10-09-2023", "Team": "Columbus Day", "EventType": "Holiday"}, {"Date": "10-31-2023", "Team": "Halloween", "EventType": "Holiday"}, {"Date": "11-11-2023", "Team": "Veterans Day", "EventType": "Holiday"}, {"Date": "11-23-2023", "Team": "Thanksgiving", "EventType": "Holiday"}, {"Date": "12-25-2023", "Team": "Christmas", "EventType": "Holiday"}, {"Date": "12-25-2023", "Team": "Christmas", "EventType": "Holiday"}]
+[
+  {
+    "Date": "11-13-2022",
+    "Team": "Western Michigan",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "11-15-2022",
+    "Team": "Kentucky",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "11-15-2022",
+    "Team": "Oakland",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "11-17-2022",
+    "Team": "Florida A&M",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "11-18-2022",
+    "Team": "Villanova",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "11-18-2022",
+    "Team": "TCU",
+    "EventType": "Womens Soccer"
+  },
+  {
+    "Date": "11-18-2022",
+    "Team": "Illinois",
+    "EventType": "Womens Volleyball"
+  },
+  {
+    "Date": "11-18-2022",
+    "Team": "Penn State",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "11-18-2022",
+    "Team": "American University",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "11-19-2022",
+    "Team": "Indiana",
+    "EventType": "Football"
+  },
+  {
+    "Date": "11-19-2022",
+    "Team": "Central Michigan",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "11-19-2022",
+    "Team": "Penn State",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "11-19-2022",
+    "Team": "Navy",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "11-20-2022",
+    "Team": "Northwestern",
+    "EventType": "Womens Volleyball"
+  },
+  {
+    "Date": "11-23-2022",
+    "Team": "Rutgers",
+    "EventType": "Womens Volleyball"
+  },
+  {
+    "Date": "11-24-2022",
+    "Team": "Alabama",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "11-24-2022",
+    "Team": "Iowa State",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "11-24-2022",
+    "Team": "Thanksgiving",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "11-25-2022",
+    "Team": "Miami of Ohio",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "11-26-2022",
+    "Team": "Penn State",
+    "EventType": "Football"
+  },
+  {
+    "Date": "11-26-2022",
+    "Team": "Iowa",
+    "EventType": "Womens Volleyball"
+  },
+  {
+    "Date": "11-26-2022",
+    "Team": "Miami of Ohio",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "11-30-2022",
+    "Team": "Notre Dame",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "12-01-2022",
+    "Team": "Georgia Tech",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "12-02-2022",
+    "Team": "Minnesota",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "12-03-2022",
+    "Team": "Minnesota",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "12-04-2022",
+    "Team": "Northwestern",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "12-04-2022",
+    "Team": "Binghamton and Princeton",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "12-05-2022",
+    "Team": "Purdue",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "12-07-2022",
+    "Team": "Penn State",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "12-09-2022",
+    "Team": "Michigan",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "12-10-2022",
+    "Team": "Brown",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "12-10-2022",
+    "Team": "Michigan",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "12-10-2022",
+    "Team": "Brown",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "12-11-2022",
+    "Team": "Ohio State",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "12-18-2022",
+    "Team": "Detriot Mercy",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "12-18-2022",
+    "Team": "the teams at the Reno Tournament of Champions",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "12-20-2022",
+    "Team": "Prairie View A&M",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "12-21-2022",
+    "Team": "Oakland",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "12-25-2022",
+    "Team": "Christmas",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "12-27-2022",
+    "Team": "Ferris State",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "12-29-2022",
+    "Team": "Indiana",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "12-30-2022",
+    "Team": "Buffalo",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-01-2023",
+    "Team": "New Year's",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "01-02-2023",
+    "Team": "Northwestern",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "01-03-2023",
+    "Team": "Nebraska",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-06-2023",
+    "Team": "Ohio State",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "01-06-2023",
+    "Team": "Bucknell",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "01-07-2023",
+    "Team": "Michigan",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-07-2023",
+    "Team": "Maryland",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "01-07-2023",
+    "Team": "Ohio State",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "01-10-2023",
+    "Team": "Wisconsin",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-11-2023",
+    "Team": "Wisconsin",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "01-13-2023",
+    "Team": "Illinois",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-13-2023",
+    "Team": "Penn State",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "01-13-2023",
+    "Team": "Michigan",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "01-14-2023",
+    "Team": "Michigan",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "01-14-2023",
+    "Team": "Penn State",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "01-15-2023",
+    "Team": "Toledo",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "01-15-2023",
+    "Team": "Minnesota",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "01-16-2023",
+    "Team": "Purdue",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-16-2023",
+    "Team": "Martin Luther King Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "01-18-2023",
+    "Team": "Iowa",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "01-19-2023",
+    "Team": "Rutgers",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-20-2023",
+    "Team": "Rutgers",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "01-21-2023",
+    "Team": "Notre Dame",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "01-22-2023",
+    "Team": "Indiana",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-22-2023",
+    "Team": "Rutgers",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "01-22-2023",
+    "Team": "Michigan",
+    "EventType": "Womens Gymnastics"
+  },
+  {
+    "Date": "01-22-2023",
+    "Team": "Penn State",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "01-26-2023",
+    "Team": "Iowa",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-27-2023",
+    "Team": "Minnesota",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "01-27-2023",
+    "Team": "Maryland",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "01-28-2023",
+    "Team": "Minnesota",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "01-29-2023",
+    "Team": "Purdue",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "01-29-2023",
+    "Team": "Illinois",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "01-29-2023",
+    "Team": "Maryland",
+    "EventType": "Womens Gymnastics"
+  },
+  {
+    "Date": "01-29-2023",
+    "Team": "Ohio State",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "02-02-2023",
+    "Team": "Nebraska",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-03-2023",
+    "Team": "Liberty",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "02-03-2023",
+    "Team": "Notre Dame",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "02-04-2023",
+    "Team": "Rutgers",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "02-04-2023",
+    "Team": "Penn State",
+    "EventType": "Womens Gymnastics"
+  },
+  {
+    "Date": "02-04-2023",
+    "Team": "Notre Dame",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "02-05-2023",
+    "Team": "Michigan",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-05-2023",
+    "Team": "UCF Challenge",
+    "EventType": "Womens Golf"
+  },
+  {
+    "Date": "02-05-2023",
+    "Team": "Miami of Ohio and Bowling Green",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "02-05-2023",
+    "Team": "Illinois",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "02-07-2023",
+    "Team": "Maryland",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "02-08-2023",
+    "Team": "Wisconson",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-10-2023",
+    "Team": "Michigan",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "02-10-2023",
+    "Team": "Indiana",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "02-11-2023",
+    "Team": "Iowa",
+    "EventType": "Womens Gymnastics"
+  },
+  {
+    "Date": "02-11-2023",
+    "Team": "Michigan",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "02-12-2023",
+    "Team": "Ohio State",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "02-12-2023",
+    "Team": "Penn State",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-12-2023",
+    "Team": "Marquette",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "02-15-2023",
+    "Team": "Minnesota",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "02-15-2023",
+    "Team": "Purdue",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-17-2023",
+    "Team": "Marshall",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "02-17-2023",
+    "Team": "Wisconsin",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "02-17-2023",
+    "Team": "Central Michigan",
+    "EventType": "Mens Wrestling"
+  },
+  {
+    "Date": "02-18-2023",
+    "Team": "Michigan",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "02-18-2023",
+    "Team": "Maryland",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-18-2023",
+    "Team": "Illinois",
+    "EventType": "Womens Gymnastics"
+  },
+  {
+    "Date": "02-18-2023",
+    "Team": "Wisconsin",
+    "EventType": "Mens Hockey"
+  },
+  {
+    "Date": "02-19-2023",
+    "Team": "Moon Golf Invitational",
+    "EventType": "Womens Golf"
+  },
+  {
+    "Date": "02-19-2023",
+    "Team": "Columbia",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "02-20-2023",
+    "Team": "President's Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "02-21-2023",
+    "Team": "Indiana",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "02-22-2023",
+    "Team": "Minnesota",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-24-2023",
+    "Team": "Xavier and Chicago State",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "02-25-2023",
+    "Team": "Iowa",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "02-25-2023",
+    "Team": "Penn State",
+    "EventType": "Womens Basketball"
+  },
+  {
+    "Date": "02-25-2023",
+    "Team": "Minnesota, Nebraska, Ohio State, and Rutgers",
+    "EventType": "Womens Gymnastics"
+  },
+  {
+    "Date": "02-26-2023",
+    "Team": "Illinois State",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "02-28-2023",
+    "Team": "Nebraska",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "03-04-2023",
+    "Team": "Ohio State",
+    "EventType": "Mens Basketball"
+  },
+  {
+    "Date": "03-07-2023",
+    "Team": "FIU",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "03-09-2023",
+    "Team": "Middle Tennessee",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "03-11-2023",
+    "Team": "Michigan",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "03-17-2023",
+    "Team": "Iowa",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "03-19-2023",
+    "Team": "Nebraska",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "03-24-2023",
+    "Team": "ASU Invitational",
+    "EventType": "Womens Golf"
+  },
+  {
+    "Date": "03-25-2023",
+    "Team": "Minnesota",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "03-26-2023",
+    "Team": "Wisconson",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "04-01-2023",
+    "Team": "Illinois",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "04-02-2023",
+    "Team": "Northwestern",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "04-08-2023",
+    "Team": "Indiana",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "04-09-2023",
+    "Team": "Purdue",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "04-15-2023",
+    "Team": "Lady Buckeye Invitational",
+    "EventType": "Womens Golf"
+  },
+  {
+    "Date": "04-15-2023",
+    "Team": "Ohio State",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "04-16-2023",
+    "Team": "Penn State",
+    "EventType": "Womens Tennis"
+  },
+  {
+    "Date": "04-21-2023",
+    "Team": "Big Ten Championships",
+    "EventType": "Womens Golf"
+  },
+  {
+    "Date": "05-14-2023",
+    "Team": "Mother's Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "06-09-2023",
+    "Team": "Birthday",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "06-18-2023",
+    "Team": "Father's Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "07-04-2023",
+    "Team": "Independence Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "09-04-2023",
+    "Team": "Labor Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "10-09-2023",
+    "Team": "Columbus Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "10-31-2023",
+    "Team": "Halloween",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "11-11-2023",
+    "Team": "Veterans Day",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "11-23-2023",
+    "Team": "Thanksgiving",
+    "EventType": "Holiday"
+  },
+  {
+    "Date": "12-25-2023",
+    "Team": "Christmas",
+    "EventType": "Holiday"
+  }
+]
