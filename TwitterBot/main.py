@@ -8,12 +8,6 @@ import json
 from datetime import date
 import random
 
-#TO DO
-#Add holidays
-#Add MSU Events
-#Add Hockey
-#Find a way to run this once a day
-
 #Weather App API initialization
 weatherAPI_key = str(os.environ.get('weatherAPI_key'))
 cityName = "East Lansing"
