@@ -24,11 +24,24 @@ fullURL = baseURL + "appid=" + weatherAPI_key + "&q=" + cityName
 apiResponse = requests.get(fullURL)
 x = apiResponse.json()
 
+#SPARTY ACCOUNT
+#sparty_consumer_key
+#sparty_consumer_secret
+#sparty_access_token
+#sparten_access_secret
+
+#PERSONAL ACCOUNT
+#consumer_key
+#consumer_secret
+#access_token
+#access_token_secret
+
 #Twitter initialization
 consumer_key = str(os.environ.get('consumer_key'))
 consumer_secret = str(os.environ.get('consumer_secret'))
 access_token = str(os.environ.get('access_token'))
 access_token_secret = str(os.environ.get('access_secret'))
+
 auth = tweepy.OAuth1UserHandler(
    consumer_key, consumer_secret, access_token, access_token_secret
 )
@@ -40,8 +53,8 @@ global currentTweet
 currentTweet = ""
 global eventData
 
-f = open('/Users/josephhughes/projects/TwitterBot/EventList.json')
-eventData = json.load(f)
+with open('/Users/josephhughes/projects/TwitterBot/EventList.json', 'r') as f:
+    eventData = json.load(f)
 
 #Weather Phrases List
 veryHotList = [" Make sure to stay hydrated!", " Don't stay in the heat too long!", " Wear something light!", " Don't forget sunscreen!"]
@@ -58,6 +71,11 @@ def tweetOut():
         if currentTweet.strip():
             api.update_status(status=currentTweet)
         currentTweet = ""
+
+def writeEventList():
+    global eventData
+    with open('/Users/josephhughes/projects/TwitterBot/EventList.json', 'w') as outfile:
+        json.dump(eventData, outfile)
 
 #********WEATHER**********
 global currentTempF
@@ -132,7 +150,7 @@ def tweetWeather():
 
 #******EVENTS********
 
-global ageOfStatue 
+global ageOfStatue
 ageOfStatue = int(dateFormat[6:9]) - 1943
 
 def tweetEvent(i):
@@ -140,11 +158,12 @@ def tweetEvent(i):
     global currentTweet
     if(eventData[i]["Date"] == dateFormat):
         if(eventData[i]['EventType'] != "Holiday"):
-            currentTweet += "Good luck to the " + eventData[i]['EventType'] + " team against " + eventData[i]['Team'] + " today! #GameDay #GoGreen #SpartansWill 💚🤍"
+            currentTweet += "Good luck to the " + eventData[i]['EventType'] + " team against " + eventData[i]['Team'] + " today! #GameDay #GoGreen #SpartansWill"
         else:
-            currentTweet += "Happy Whatever " + eventData[i]['Team'] + " Whatever"
-        eventData.pop(i)
+            currentTweet += "Wishing all Spartans(and non Spartans) a happy " + eventData[i]['Team'] + "! Make sure to celebrate responsibly! #GoGreen #SpartansWill"
+        del eventData[0]
         tweetOut()
+        writeEventList()
         tweetEvent(i)
 
 #******EVENTS END******
