@@ -1,7 +1,21 @@
-# Michigan State University Twitter Bot
+# Michigan State University Automated Twitter Account
 
-This is a twitter bot I built used to automatically tweet from the account @SpartyStatue at 2:30pm EST everyday. It will tweet the
-weather in Fahrenheit, as well as the humidity. On days where there are football, mens basketball, womens basketball, or holidays it will tweet,
+This is an automated twitter account I built used to automatically tweet from the account @SpartyStatue at 2:30pm EST everyday. It will tweet the
+weather in Fahrenheit, as well as the humidity. On days where there are Michigan State sporting events or holidays it will tweet,
 either wishing the team goodluck against the team that they play, or wishing a happy and responsible celebration of the holiday.
 
-This project is currently unfinished. If I see fit I'll decide to add more sports schedules and possibly other events to be tweeted out.
+## Build Your Own Automated Twitter Account
+
+The api that I used to make the twitter part of this project was Tweepy and a Twitter developer account
+
+The Tweepy documentation can be found here:
+
+https://docs.tweepy.org/en/stable/api.html
+
+A Twitter developer account can be made here:
+
+https://developer.twitter.com/en/apply-for-access
+
+The weather API that I used to get weather information about East Lansing is called OpenWeather and can be found here:
+
+https://openweathermap.org/
