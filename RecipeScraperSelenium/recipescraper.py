@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from time import sleep
 
 
 home_page = "https://www.pickuplimes.com/recipe/?sb=&page="
@@ -22,29 +21,26 @@ try:
         
         for i in range(recipesListLength):
             currentRecipe = driver.find_elements(By.CLASS_NAME, "card-img")[i]
-            sleep(2)
             currentRecipe.click()
 
             #Sets a variable recipe url to the current url
             recipeurl = str(driver.current_url)
-            sleep(2)
+
             #Makes recipe url variable ***/print, which redirects to a page with better text formatting
             printurl = recipeurl + "/print"
-            sleep(2)
+    
             #sets the url as the print url
             driver.get(printurl) 
-            sleep(10)
 
             #Gets the title of the dish
             recipeTitle = driver.find_element(By.TAG_NAME, "header").text
-            print(recipeTitle)
-            sleep(2)
+            
             #Gets raw text of the directions/ingredients
             ingredientsText = driver.find_element(By.XPATH, "/html/body/article/div/div[2]/div[2]/div").text
-            sleep(2)
+            
             #Gets serving size that the recipe makes
             servingCount = "Servings: " + driver.find_element(By.ID, "servings-amount").text
-            sleep(2)
+            
             outputFile.write(recipeTitle)
             outputFile.write("\n")
             outputFile.write(servingCount)
@@ -64,8 +60,7 @@ try:
     outputFile.close()
     
 except:
-    print("You Suck")
     driver.quit()
 
 
-# driver.quit()
+
