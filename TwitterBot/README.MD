@@ -4,6 +4,9 @@ This is an automated twitter account I built used to automatically tweet from th
 weather in Fahrenheit, as well as the humidity. On days where there are Michigan State sporting events or holidays it will tweet,
 either wishing the team goodluck against the team that they play, or wishing a happy and responsible celebration of the holiday.
 
+Can be found here:
+https://twitter.com/SpartyStatue
+
 ## Build Your Own Automated Twitter Account
 
 The api that I used to make the twitter part of this project was Tweepy and a Twitter developer account
