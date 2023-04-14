@@ -8,19 +8,19 @@ The dependencies used to create this project were:
 
 ## Pytorch
 
-[Pytorch]{https://pytorch.org/} was used to create the nueral network that is the centerpoint of this AI. This along with a remember function make up the Qlearning AI used by the snake.
+[Pytorch](https://pytorch.org/) was used to create the nueral network that is the centerpoint of this AI. This along with a remember function make up the Qlearning AI used by the snake.
 
 ## NumPy
 
-[NumPy]{https://numpy.org/} was used to handle arrays.
+[NumPy](https://numpy.org/) was used to handle arrays.
 
 ## Pygame
 
-[Pygame]{https://www.pygame.org/wiki/GettingStarted} was used in order to create and draw the snake game itself.
+[Pygame](https://www.pygame.org/wiki/GettingStarted) was used in order to create and draw the snake game itself.
 
 ## Matplotlib
 
-[Matplotlib]{https://matplotlib.org/} was used to plot the scores and average score along the y-axis, and the number of games on the x-axis.
+[Matplotlib](https://matplotlib.org/) was used to plot the scores and average score along the y-axis, and the number of games on the x-axis.
 
 # Results
 
